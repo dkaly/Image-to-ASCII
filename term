@@ -1,5 +1,7 @@
 ./main owl.jpeg
-./main "/Users/dimitrik/Desktop/kitten.jpg"
+
+use image path of any image on  your computer with this example
+./main "/Users/dkaly/Desktop/kitten.jpg"
 
 g++ main.cpp -o main \
 -I/opt/homebrew/opt/opencv/include/opencv4 \
