@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     cv::Mat gray;
     cv::cvtColor(image, gray, cv::COLOR_BGR2GRAY);
 
-    //get pixels color values
+    //color value -> char
     string asciiChars = " .:-i=+*adm#%@";
     int numChars = asciiChars.size();
     int bucketSize = 256 / numChars;
